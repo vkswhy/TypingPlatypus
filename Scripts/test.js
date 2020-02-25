@@ -134,6 +134,7 @@ function startup(){
         console.log("here" + i);
         document.getElementById("reload").click();
 
+
     }
 }
 

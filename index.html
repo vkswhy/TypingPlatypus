@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="StyleSheets/reset.css">
+        <link rel="stylesheet" href="StyleSheets/style.css">
+        <script type="text/javascript" src = "Scripts/Raw.js"></script>
+
+    </head>
+    <body>
+        <nav>
+            <img src="Themes/logo.png" style = "display: flex; align-self: flex-start;">
+            <h1><br>Typing Platipus</h1>
+        </nav>
+        <div class="main-container">
+            <div class = "main">
+                <div id = 'main'></div>
+                <div class='input-and-button-container'>
+                    <input type="text" value="" id = "workSpace" onkeydown ="typeit(event)" onfocus="focusit()">
+                    <button id = "timer">1:00</button>
+                    <a href="index.html"><button id = "reload">reload</button></a>
+                </div>
+            </div>
+        <div class='score-container' style = "display : none;">
+                <div id = "score">
+                   <div class="speed">
+                        <p id ="speedVal">97 <span style="font-size:3rem;">WPM</span>
+                        </p>
+                        <p style="font-size:2rem;" id = "accu">Accuracy:100%</p>
+                   </div>
+                 </div>
+            </div>
+            
+        </div>
+
+
+        <script type="text/javascript" src = "Scripts/test.js">
+
+        </script>
+
+</html>
